@@ -13,6 +13,7 @@
 		33569F6228BDC5350073447C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33569F6028BDC5350073447C /* Main.storyboard */; };
 		33569F6428BDC5360073447C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33569F6328BDC5360073447C /* Assets.xcassets */; };
 		33569F6728BDC5360073447C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33569F6528BDC5360073447C /* LaunchScreen.storyboard */; };
+		33CDEF0E28C0CA47006A4416 /* kakudaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CDEF0D28C0CA47006A4416 /* kakudaiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		33569F6328BDC5360073447C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33569F6628BDC5360073447C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33569F6828BDC5360073447C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CDEF0D28C0CA47006A4416 /* kakudaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakudaiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				33569F5A28BDC5350073447C /* AppDelegate.swift */,
 				33569F5C28BDC5350073447C /* SceneDelegate.swift */,
 				33569F5E28BDC5350073447C /* ViewController.swift */,
+				33CDEF0D28C0CA47006A4416 /* kakudaiViewController.swift */,
 				33569F6028BDC5350073447C /* Main.storyboard */,
 				33569F6328BDC5360073447C /* Assets.xcassets */,
 				33569F6528BDC5360073447C /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				33569F5F28BDC5350073447C /* ViewController.swift in Sources */,
 				33569F5B28BDC5350073447C /* AppDelegate.swift in Sources */,
 				33569F5D28BDC5350073447C /* SceneDelegate.swift in Sources */,
+				33CDEF0E28C0CA47006A4416 /* kakudaiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
