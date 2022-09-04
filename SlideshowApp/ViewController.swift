@@ -35,8 +35,12 @@ class ViewController: UIViewController {
         
         //segueから遷移先のnextviewcontrollerを取得する
         let kakudaiimage = segue.destination as! kakudaiViewController
+        //timerを止める
+        timer.invalidate()
+        timer = nil
         //遷移先のkakudaiviewcontrollerで宣言しているkakudaiimageにデータを渡す
         kakudaiimage.kakudaiview = outputimage.image
+        
         
     }
     
@@ -131,6 +135,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func unwind(_ segue: UIStoryboardSegue){
+        //timerを再開させる
+        timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(update), userInfo: nil, repeats: true)
         
     }
     
